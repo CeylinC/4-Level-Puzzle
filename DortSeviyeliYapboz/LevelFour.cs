@@ -18,7 +18,7 @@ namespace DortSeviyeliYapboz
         ArrayList locations = new ArrayList();
         ArrayList images = new ArrayList();
         int score;
-        Image orginal = Image.FromFile(@"C:\Users\ailes\Downloads\omori.jpeg");
+        Image orginal = Image.FromFile(Application.StartupPath+@"\picture.jpg");
         public LevelFour()
         {
             InitializeComponent();

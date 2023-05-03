@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Net.Mime.MediaTypeNames;
 using Image = System.Drawing.Image;
 
 namespace DortSeviyeliYapboz
@@ -19,7 +18,7 @@ namespace DortSeviyeliYapboz
         ArrayList locations = new ArrayList();
         ArrayList images = new ArrayList();
         int score;
-        Image orginal = Image.FromFile(@"C:\Users\ailes\Downloads\omori.jpeg");
+        Image orginal = Image.FromFile(Application.StartupPath + @"\picture.jpg");
         public LevelTwo()
         {
             InitializeComponent();
